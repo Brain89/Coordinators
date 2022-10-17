@@ -21,6 +21,7 @@ class DetailViewController: ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = language.name
         view.backgroundColor = language.color
     }
 }
